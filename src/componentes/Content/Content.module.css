@@ -1,0 +1,83 @@
+.content{
+    height: 80vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content input:focus-visible{
+    outline: none;
+}
+
+.content input{
+    height: 44px;
+    width: 463px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #a5a5a5;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 22px;
+    border: 1px solid black;
+}
+
+.center:hover{
+    box-shadow: 2px 2px 2px 1px;
+}
+
+.icone{
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.botoes{
+    margin-top: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao{
+    width: 135px;
+    height: 36px;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    border: none;
+    background-color: #F8F8F8;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #979696;
+    color: white;
+}
+
+.privacidade{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.privacidade h2{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #1A0DBD;
+    cursor: pointer;
+
+}

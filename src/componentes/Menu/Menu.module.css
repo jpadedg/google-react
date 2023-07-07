@@ -1,0 +1,21 @@
+.menu{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: -0.03em;
+    color:  #707070;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.menu h3{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.menu img{
+    margin-right: 15px;
+    cursor: pointer;
+}
